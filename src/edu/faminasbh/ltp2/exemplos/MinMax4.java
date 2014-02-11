@@ -25,7 +25,7 @@ public class MinMax4 {
                 máximo = num;
             }
         }
-
+        
         System.out.println("O menor numero eh: " + mínimo);
         System.out.println("O maior numero eh: " + máximo);
         sc.close();

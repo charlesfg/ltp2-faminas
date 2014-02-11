@@ -52,5 +52,6 @@ public class MinMax1 {
 				System.out.println("O maior numero eh: " + n3);
 			}
 		}
+		sc.close();
 	}
 }
