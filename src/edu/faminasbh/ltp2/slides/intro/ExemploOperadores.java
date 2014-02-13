@@ -1,4 +1,4 @@
-package edu.faminasbh.ltp2;
+package edu.faminasbh.ltp2.slides.intro;
 
 public class ExemploOperadores {
 	public static void main(String[] args) {
