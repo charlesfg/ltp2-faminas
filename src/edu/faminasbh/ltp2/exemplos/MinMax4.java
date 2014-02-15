@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class MinMax4 {
     public static void main(String[] args) {
-        final int NÚMEROS_A_LER = 3;
+        final int NÚMEROS_A_LER = 5;
         Scanner sc = new Scanner(System.in);
         int mínimo = Integer.MAX_VALUE;
         int máximo = Integer.MIN_VALUE;
