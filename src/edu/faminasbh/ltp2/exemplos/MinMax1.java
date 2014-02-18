@@ -13,7 +13,7 @@ public class MinMax1 {
 		Scanner sc = new Scanner(System.in);
 		int n1, n2, n3;
 
-		System.out.print("Entre com o primeiro inteiro: ");
+		System.out.print("Entre com o primeiro inteiro:  lero lero ");
 		n1 = sc.nextInt();
 		System.out.print("Entre com o segundo inteiro: ");
 		n2 = sc.nextInt();
