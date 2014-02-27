@@ -1,3 +1,4 @@
+// Referente: Slide II - Introdução Java Exercício 3
 package ltp2.faminasbh.java;
 import java.util.Scanner;
 
