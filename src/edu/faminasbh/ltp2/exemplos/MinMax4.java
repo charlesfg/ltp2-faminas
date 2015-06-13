@@ -10,24 +10,24 @@ import java.util.Scanner;
 
 public class MinMax4 {
     public static void main(String[] args) {
-        final int NÚMEROS_A_LER = 3;
+        final int NUMEROS_A_LER = 3;
         Scanner sc = new Scanner(System.in);
-        int mínimo = Integer.MAX_VALUE;
-        int máximo = Integer.MIN_VALUE;
+        int maximo = Integer.MAX_VALUE;
+        int minimo = Integer.MIN_VALUE;
 
-        for (int i = 0; i < NÚMEROS_A_LER; i++) {
+        for (int i = 0; i < NUMEROS_A_LER; i++) {
             System.out.print("Entre com o proximo inteiro: ");
             int num = sc.nextInt();
-            if (num < mínimo) {
-                mínimo = num;
+            if (num < minimo) {
+               minimo = num;
             }
-            if (num > máximo) {
-                máximo = num;
+            if (num > maximo) {
+                maximo = num;
             }
         }
         
-        System.out.println("O menor numero eh: " + mínimo);
-        System.out.println("O maior numero eh: " + máximo);
+        System.out.println("O menor numero eh: " + minimo);
+        System.out.println("O maior numero eh: " + maximo);
         sc.close();
     }
 }
